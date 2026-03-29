@@ -21,9 +21,7 @@ jobs:
 
       - name: Build
         run: |
-          pyinstaller --onefile --noconsole ^
-            --add-data "config.json;." ^
-            app.py
+          pyinstaller --onefile --noconsole --add-data "config.json;." app.py
 
       - name: Upload
         uses: actions/upload-artifact@v4
