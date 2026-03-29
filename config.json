@@ -1,0 +1,11 @@
+{
+  "targets": [
+    "SUNDANCE-DUYG"
+  ],
+  "download_dir": "downloads",
+  "auto_extract": true,
+  "notify": {
+    "discord_webhook": "",
+    "slack_webhook": ""
+  }
+}
